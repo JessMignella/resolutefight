@@ -2363,7 +2363,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					ul.icons.major li {
-						padding: 0 1em !important;
+						padding: 0.3em 2.4em !important
 					}
 
 				}
@@ -2536,7 +2536,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #39cbd3 !important;
+				background-color: #0099a5 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2544,7 +2544,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1fdde7 !important;
+				background-color: #007f86 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3682,7 +3682,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 3em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -3721,7 +3721,8 @@ input, select, textarea {
 			letter-spacing: 0.45em;
 			text-transform: uppercase;
 			font-size: larger;
-			margin: 1em;
+			text-wrap: nowrap;
+			margin: 1em 0em;
 		}
 
 		#banner a{
@@ -3820,7 +3821,16 @@ input, select, textarea {
 				}
 
 				#banner .more {
+					
 					display: none;
+				}
+				#banner .button.large {
+					font-size: 0.7em;
+				}
+
+				#banner .brand {
+					font-size: 1.7em;
+					text-wrap: nowrap;
 				}
 
 		}
@@ -3854,21 +3864,10 @@ input, select, textarea {
 		font-family: 'freshman', serif;
 		font-weight: normal !important;
 		letter-spacing: 2px !important;
-		font-size: xxx-large !important;
 		line-height: 50px;
 		margin-bottom: 0.2em;
 	}
 
-	.brand.menu {
-		
-	}
-	@media screen and (max-width: 736px) {
-
-		.brand {
-			font-size: xx-large !important;
-		}
-
-	}
 
 /* CTA */
 
@@ -4006,7 +4005,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: rgb(0 0 0 / 80%);
 		text-align: center;
 	}
 
@@ -4096,7 +4095,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgb(0 0 0 / 80%)
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -4115,6 +4114,6 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: rgb(0 0 0 / 80%);
 	}
 
